@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Built-By: alfin
+Build-Jdk: 14.0.2
+Implementation-Title: SpringSecurityJDBCAuthenticationPostgreSQL
+Implementation-Version: 0.0.1
+Implementation-Vendor-Id: com.javasampleapproach.springsecurity.jdbcauth
+ entication
+Implementation-Vendor: Pivotal Software, Inc.
+Implementation-URL: http://projects.spring.io/spring-boot/SpringSecurity
+ JDBCAuthenticationPostgreSQL/
+Created-By: Maven Integration for Eclipse
+
