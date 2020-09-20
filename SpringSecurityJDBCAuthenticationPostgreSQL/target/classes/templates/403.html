@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org"
+	xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+<head>
+<title>Security with Spring Boot</title>
+</head>
+<body>
+	<h2>Sorry, access is granted only for Admin!!</h2>
+	<a style="color: blue" th:href="@{/}">Go back to Home</a>
+	<form th:action="@{/logout}" method="post">
+		<input type="submit" value="Log Out" />
+	</form>
+</body>
+</html>
